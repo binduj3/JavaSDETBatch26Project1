@@ -11,10 +11,10 @@ public class Program4 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
-        double number1= scanner.nextInt();
+        double number1= scanner.nextDouble();
 
         System.out.print("Enter second number: ");
-        double number2= scanner.nextInt();
+        double number2= scanner.nextDouble();
 
         System.out.println("Sum: "+(number1+number2));
         System.out.println("Difference: "+ (number1-number2));
